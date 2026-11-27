@@ -10,9 +10,18 @@ export const profile = {
   education: {
     institution: 'SRM Institute of Science and Technology',
     location: 'Chennai',
-    degree: 'B.Tech Computer Science & Engineering',
+    degree: 'B.Tech — Computer Science & Engineering',
+    duration: '2023–2027',
     graduationYear: 2027,
     cgpa: '9.92 / 10',
+  },
+  schoolEducation: {
+    school: 'Mother Teresa Senior Secondary School',
+    location: 'Bhopal, Madhya Pradesh',
+    board: 'CBSE',
+    completionYear: 2022,
+    classX: '96.8%',
+    classXII: '92.0%',
   },
   contact: {
     github: 'https://github.com/amal-joji',

@@ -60,7 +60,7 @@ export default function BeyondCode() {
       <div className="absolute top-0 left-0 right-0 h-[1px] bg-gradient-to-r from-transparent via-border-light to-transparent" />
 
       <div className="max-w-container mx-auto">
-        <SectionHeading number="07" title="ALWAYS LEARNING. ALWAYS BUILDING." />
+        <SectionHeading number="08" title="ALWAYS LEARNING. ALWAYS BUILDING." />
 
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-5">
           {technicalInterests.map((interest, i) => {

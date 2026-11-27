@@ -93,7 +93,7 @@ export default function Contact() {
     <section id="contact" className="py-24 md:py-36 section-padding relative">
       <div className="max-w-container mx-auto">
         <SectionHeading
-          number="08"
+          number="09"
           title="GOT SOME QUESTIONS FOR ME?"
           subtitle="Have an opportunity, an interesting idea, or simply want to discuss technology? Drop me a message. I'd love to hear from you."
         />
