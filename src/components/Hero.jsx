@@ -160,6 +160,9 @@ export default function Hero() {
             {/* Left Column — 5-Line Kinetic Typography Headline + Intro + CTAs */}
             <div className="lg:col-span-8">
               <h1 className="text-left font-black uppercase leading-[0.93] tracking-[-0.04em] text-[2.35rem] sm:text-5xl md:text-6xl lg:text-[4.5rem] xl:text-[5.25rem] mb-6 md:mb-8 select-none">
+                <span className="sr-only">
+                  Amal Joji — Software Engineer &amp; AI Engineer:{' '}
+                </span>
                 {HEADLINE_LINES.map((line) => (
                   <KineticLine
                     key={line.id}

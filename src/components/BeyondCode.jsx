@@ -84,9 +84,9 @@ export default function BeyondCode() {
                     </span>
                   </div>
 
-                  <h4 className="text-base font-bold text-text-primary tracking-tight mb-2 group-hover:text-accent-light transition-colors">
+                  <h3 className="text-base font-bold text-text-primary tracking-tight mb-2 group-hover:text-accent-light transition-colors">
                     {interest.title}
-                  </h4>
+                  </h3>
 
                   <p className="text-xs text-text-secondary leading-relaxed">
                     {interest.description}

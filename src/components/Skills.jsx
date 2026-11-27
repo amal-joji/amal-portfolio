@@ -52,9 +52,9 @@ export default function Skills() {
             >
               <div>
                 <div className="flex items-center justify-between pb-3 mb-5 border-b border-border">
-                  <h4 className="text-xs font-mono font-bold tracking-widest uppercase text-accent group-hover:text-accent-light transition-colors">
+                  <h3 className="text-xs font-mono font-bold tracking-widest uppercase text-accent group-hover:text-accent-light transition-colors">
                     {category}
-                  </h4>
+                  </h3>
                   <span className="text-[10px] font-mono text-text-muted px-2 py-0.5 bg-dark-900 rounded-chip border border-border">
                     {list.length}
                   </span>

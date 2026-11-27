@@ -24,15 +24,17 @@ function App() {
           <CustomCursor />
           <ScrollProgress />
           <Navbar />
-          <Hero />
-          <About />
-          <Experience />
-          <Projects />
-          <Skills />
-          <Achievements />
-          <Certifications />
-          <BeyondCode />
-          <Contact />
+          <main>
+            <Hero />
+            <About />
+            <Experience />
+            <Projects />
+            <Skills />
+            <Achievements />
+            <Certifications />
+            <BeyondCode />
+            <Contact />
+          </main>
           <Footer />
           <ResumeModal />
         </div>
