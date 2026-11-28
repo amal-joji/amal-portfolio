@@ -76,7 +76,7 @@ Portfolio/
 
 ---
 
-## 🎨 Design System Highlights (Razorpay Buildathon Aesthetic)
+## 🎨 Design System Highlights
 
 - **Theme**: Obsidian / Dark Premium (`#0a0a0f`, `#0f0f17`, `#14141f`)
 - **Accents**: Vibrant electric purple (`#6c5ce7`, `#a29bfe`) and glowing cyan (`#00cec9`)
@@ -84,18 +84,6 @@ Portfolio/
 - **Visuals**: Bespoke interactive graphics for each project (satellite ocean radar, sensor hotspot matrix, NLP attention visualizer, and 2D vector game HUD) rather than generic emojis or stock photos
 - **Motion**: Framer Motion scroll-triggered reveals with smooth viewport entry
 
----
-
-## 📄 Managing Your Resume
-
-1. Place your updated resume file in the `public/` folder as `resume.pdf`:
-   ```
-   public/resume.pdf
-   ```
-2. The portfolio is pre-configured to link directly to `/resume.pdf`. When visitors click **Download Resume** in the Hero, Navbar, or Contact sections, it downloads automatically.
-3. If you want to rename your resume file or change its path, simply update the `resumePath` key in `src/data/profile.js`.
-
----
 
 ## ✏️ Customizing Your Data & Placeholders
 
@@ -111,33 +99,3 @@ All personal and technical content is isolated in `src/data/` for easy editing:
 
 ---
 
-## 🚀 Deploying to Vercel
-
-### Option 1: Via GitHub (Recommended)
-1. Initialize a git repository and commit your files:
-   ```bash
-   git init
-   git add .
-   git commit -m "Initial commit of Amal Joji portfolio"
-   ```
-2. Push your repository to GitHub:
-   ```bash
-   git remote add origin https://github.com/amal-joji/portfolio.git
-   git branch -M main
-   git push -u origin main
-   ```
-3. Go to [vercel.com](https://vercel.com/) and click **Add New Project**.
-4. Import your GitHub repository.
-5. Vercel automatically detects **Vite**:
-   - **Framework Preset**: Vite
-   - **Build Command**: `npm run build`
-   - **Output Directory**: `dist`
-   - **Install Command**: `npm install`
-6. Click **Deploy**. Your portfolio will be live in under a minute!
-
-### Option 2: Via Vercel CLI
-```bash
-npm install -g vercel
-vercel
-```
-Follow the interactive prompts and select default options.
