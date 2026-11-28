@@ -4,7 +4,7 @@ export const leadershipExperiences = [
     number: '01',
     title: 'Class Representative',
     category: 'School Leadership',
-    duration: 'Grades 3–10',
+    duration: '2012-2020',
     icon: 'users',
     description:
       'Served as Class Representative across multiple school years, holding a consistent student leadership role throughout primary and secondary education.',
